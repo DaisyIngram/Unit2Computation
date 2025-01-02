@@ -1,0 +1,960 @@
+
+.laptopBackground{
+  position: absolute;
+    width: auto;
+    height: 850px;
+    top:425px;
+    left: 770px;                                                                                                                                                            
+    transform: translate(-50%,
+    -50%);
+}
+
+.staticVid{
+  position: absolute;
+  width: auto;
+  height: 410px;
+  top: 230px;
+  left: 785px;
+  transform: translate(-50%,
+    -50%)
+}
+
+.laptopEnterStart{
+  position: absolute;
+  height: 155px;
+  top: 548px;
+  left: 1090px;
+  transform: translate(-50%,
+    -50%)
+}
+
+.laptopEnter{
+  position: absolute;
+  height: 155px;
+  top: 548px;
+  left: 1090px;
+  transform: translate(-50%,
+    -50%)
+}
+
+.laptopEnterShow{
+  display: none;
+}
+
+.laptopEnterStart:hover + .laptopEnterShow {
+  display: block;
+}
+
+
+
+
+.laptopControl{
+  position: absolute;
+  width: 80px;
+  height: auto;
+  left: 415px;
+  top: 610px;
+}
+
+.laptopContinue{
+  position: absolute;
+  width: 400px;
+  height: auto;
+  top: 190px;
+  left: 580px;
+  display: none;
+}
+
+.laptopControl:hover + .laptopContinue {
+  display: block;
+}
+
+.laptopTab{
+  position: absolute;
+  width: 130px;
+  height: auto;
+  left: 475px;
+  top: 490px;
+}
+
+.laptopTab:hover + .laptopContinue {
+  display: block;
+}
+
+.laptopAlt{
+  position: absolute;
+  width: 90px;
+  height: auto;
+  left: 520px;
+  top: 612px;
+}
+
+.laptopAlt:hover + .laptopContinue {
+  display: block;
+}
+
+.laptopSpace{
+  position: absolute;
+  width: 300px;
+  height: auto;
+  left: 640px;
+  top: 605px;
+}
+
+.laptopSpace:hover + .laptopContinue {
+  display: block;
+}
+
+.laptopW{
+  position: absolute;
+  width: 70px;
+  height: auto;
+  left: 655px;
+  top: 495px;
+}
+
+.laptopW:hover + .laptopContinue {
+  display: block;
+}
+
+.laptopA{
+  position: absolute;
+  width: 50px;
+  height: auto;
+  left: 600px;
+  top: 550px;
+}
+
+.laptopA:hover + .laptopContinue {
+  display: block;
+}
+
+.laptopS{
+  position: absolute;
+  width: 55px;
+  height: auto;
+  left: 670px;
+  top: 548px;
+}
+
+.laptopS:hover + .laptopContinue {
+  display: block;
+}
+
+.laptopD{
+  position: absolute;
+  width: 60px;
+  height: auto;
+  left: 740px;
+  top: 540px;
+}
+
+.laptopD:hover + .laptopContinue {
+  display: block;
+}
+
+
+
+
+.star{
+  position: absolute;
+  width: 8%;
+  height: auto;
+  left: 325px;
+  top: 50px;
+}
+
+.mbbgVid{
+  position: absolute;
+    width: auto;
+    height: 850px;
+    top:425px;
+    left: 770px;
+    transform: translate(-50%,
+    -50%);
+}
+
+.motherboardBackground{
+  position: absolute;
+  width: auto;
+  height: 850px;
+  top:425px;
+  left: 770px;
+    transform: translate(-50%,
+    -50%);
+}
+
+.motherboardStarStart{
+  position: absolute;
+  width: 100px;
+  height: auto;
+  left: 981px;
+  top: 370px;
+}
+
+.motherboardStar{
+  position: absolute;
+  width: 180px;
+  height: auto;
+  left: 942px;
+  top: 330px;
+}
+
+.motherboardStarShow{
+  display: none;
+}
+
+.motherboardStarStart:hover + .motherboardStarShow {
+  display: block;
+}
+
+
+
+
+
+.startParts1{
+  position: absolute;
+  width: 115px;
+  height: auto;
+  top: 130px;
+  left: 80px;
+}
+
+.parts1{
+  position: absolute;
+  width: 115px;
+  height: auto;
+  top: 130px;
+  left: 80px;
+}
+
+.showParts{
+  display: none;
+}
+
+.startParts1:hover + .showParts {
+  display: block;
+}
+
+
+.startParts2{
+  position: absolute;
+  width: 115px;
+  height: auto;
+  top: 195px;
+  left: 80px;
+}
+
+.parts2{
+  position: absolute;
+  width: 115px;
+  height: auto;
+  top: 195px;
+  left: 80px;
+}
+
+.startParts2:hover + .showParts {
+  display: block;
+}
+
+.startParts3{
+  position: absolute;
+  width: 115px;
+  height: auto;
+  top: 260px;
+  left: 80px;
+}
+
+.parts3{
+  position: absolute;
+  width: 115px;
+  height: auto;
+  top: 260px;
+  left: 80px;
+}
+
+.startParts3:hover + .showParts {
+  display: block;
+}
+
+.startParts4{
+  position: absolute;
+  width: 115px;
+  height: auto;
+  top: 325px;
+  left: 80px;
+}
+
+.parts4{
+  position: absolute;
+  width: 115px;
+  height: auto;
+  top: 325px;
+  left: 80px;
+}
+
+.startParts4:hover + .showParts {
+  display: block;
+}
+
+.startParts5{
+  position: absolute;
+  width: 115px;
+  height: auto;
+  top: 390px;
+  left: 80px;
+}
+
+.parts5{
+  position: absolute;
+  width: 115px;
+  height: auto;
+  top: 390px;
+  left: 80px;
+}
+
+.startParts5:hover + .showParts {
+  display: block;
+}
+
+.startParts6{
+  position: absolute;
+  width: 60px;
+  height: auto;
+  top: 510px;
+  left: 225px;
+}
+
+.parts6{
+  position: absolute;
+  width: 60px;
+  height: auto;
+  top: 510px;
+  left: 225px;
+}
+
+
+.startParts6:hover + .showParts {
+  display: block;
+}
+
+
+.startParts7{
+  position: absolute;
+  width: 60px;
+  height: auto;
+  top: 510px;
+  left: 283px;
+}
+
+.parts7{
+  position: absolute;
+  width: 60px;
+  height: auto;
+  top: 510px;
+  left: 283px;
+}
+
+.startParts7:hover + .showParts {
+  display: block;
+}
+
+.startParts8{
+  position: absolute;
+  width: 60px;
+  height: auto;
+  top: 510px;
+  left: 340px;
+}
+
+.parts8{
+  position: absolute;
+  width: 60px;
+  height: auto;
+  top: 510px;
+  left: 340px;
+}
+
+.startParts8:hover + .showParts {
+  display: block;
+}
+
+.startParts9{
+  position: absolute;
+  width: 60px;
+  height: auto;
+  top: 510px;
+  left: 395px;
+}
+
+.parts9{
+  position: absolute;
+  width: 60px;
+  height: auto;
+  top: 510px;
+  left: 395px;
+}
+
+.startParts9:hover + .showParts {
+  display: block;
+}
+
+.startParts10{
+  position: absolute;
+  width: 60px;
+  height: auto;
+  top: 510px;
+  left: 450px;
+}
+
+.parts10{
+  position: absolute;
+  width: 60px;
+  height: auto;
+  top: 510px;
+  left: 450px;
+}
+
+.startParts10:hover + .showParts {
+  display: block;
+}
+
+
+
+
+.memoryBackground{
+    position: absolute;
+    width: auto;
+    height: 850px;
+    top:425px;
+    left: 770px;
+    transform: translate(-50%,
+    -50%);
+}
+
+.memoryBackgroundWhite{
+    position: absolute;
+    width: auto;
+    height: 850px;
+    top:0px;
+    left: 0px;
+    transform: translate(-50%,
+    -50%);
+    animation: glitch 2.5s infinite;
+
+}
+
+@keyframes glitch {
+    0% {
+      transform: none;
+      opacity: 1;
+    }
+    7% {
+      transform: skew(-0.3deg, -0.6deg);
+      opacity: 0.75;
+    }
+    10% {
+      transform: none;
+      opacity: 1;
+    }
+    27% {
+      transform: none;
+      opacity: 1;
+    }
+    30% {
+      transform: skew(0.5deg, -0.1deg);
+      opacity: 0.75;
+    }
+    35% {
+      transform: none;
+      opacity: 1;
+    }
+    52% {
+      transform: none;
+      opacity: 1;
+    }
+    55% {
+      transform: skew(-1deg, 0.2deg);
+      opacity: 0.75;
+    }
+    50% {
+      transform: none;
+      opacity: 1;
+    }
+    72% {
+      transform: none;
+      opacity: 1;
+    }
+    75% {
+      transform: skew(0.4deg, 1deg);
+      opacity: 0.75;
+    }
+    80% {
+      transform: none;
+      opacity: 1;
+    }
+    100% {
+      transform: none;
+      opacity: 1;
+    }
+  }
+
+
+
+.memoryStarStart{
+    position: absolute;
+    width: 120px;
+    height: auto;
+    left: 358px;
+    top: 425px;
+}
+
+.memoryStar{
+    position: absolute;
+    width: 150px;
+    height: auto;
+    left: 342px;
+    top: 415px;
+}
+
+.memoryStarShow{
+    display: none;
+}
+
+.memoryStarStart:hover + .memoryStarShow {
+    display: block;
+}
+
+
+
+
+
+.childhoodBackground{
+    position: absolute;
+    width: auto;
+    height: 840px;
+}
+
+.childhoodButtonStart{
+    position: absolute;
+    width: 225px;
+    height: auto;
+    top: 245px;
+    left: 75px;
+}
+
+.childhoodButton{
+    position: absolute;
+    width: 225px;
+    height: auto;
+    top: 245px;
+    left: 75px;
+}
+
+.childhoodButtonShow{
+    display: none;
+}
+
+.childhoodGrow{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top:425px;
+    left: 770px;
+    transform: translate(-50%,
+    -50%);
+    display: none;
+}
+
+.childhoodButtonStart:hover + .childhoodButtonShow {
+    display: block;
+}
+
+
+.buttonBlank1{
+    position: absolute;
+    width: 225px;
+    height: auto;
+    left: 75px;
+    top: 45px;
+}
+
+.childhoodLearn{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    top:425px;
+    left: 770px;
+    transform: translate(-50%,
+    -50%);
+    display: none;
+}
+
+.buttonBlank1:hover + .childhoodLearn {
+    display: block;
+}
+
+.buttonBlank2{
+    position: absolute;
+    width: 225px;
+    height: auto;
+    left: 75px;
+    top: 440px;
+}
+
+.childhoodWorld{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    top:425px;
+    left: 770px;
+    transform: translate(-50%,
+    -50%);
+    display: none;
+}
+
+.buttonBlank2:hover + .childhoodWorld {
+    display: block;
+}
+
+.buttonBlank3{
+    position: absolute;
+    width: 225px;
+    height: auto;
+    left: 75px;
+    top: 640px;
+}
+
+.childhoodRemember{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    top:425px;
+    left: 770px;
+    transform: translate(-50%,
+    -50%);
+    display: none;
+}
+
+.buttonBlank3:hover + .childhoodRemember {
+    display: block;
+}
+
+
+
+.natureBackground{
+    position: absolute;
+    width: auto;
+    height: 840px;
+}
+
+.tree{
+    position: absolute;
+    width: 450px;
+    height: auto;
+    left: 340px;
+}
+
+.treeOutline{
+    position: absolute;
+    width: 470px;
+    height: auto;
+    left: 330px;
+}
+
+.treeOutlineShow{
+    display: none;
+}
+
+.tree:hover + .treeOutlineShow {
+    display: block;
+}
+
+
+
+
+.leaf1 {
+    
+    height: auto;
+    width: 150px;
+    left: 300px;
+    position: absolute;
+    animation: move 1s forwards;
+  }
+  
+  @keyframes move {
+    from {
+      bottom: 1000px;
+    }
+    to {
+      bottom: 0;
+    }
+}
+
+.leaf2 {
+    
+    height: auto;
+    width: 160px;
+    left: 350px;
+    position: absolute;
+    animation: move 1.7s forwards;
+  }
+  
+  @keyframes move {
+    from {
+      bottom: 1000px;
+    }
+    to {
+      bottom: 0;
+    }
+}
+
+.leaf3 {
+    
+    height: auto;
+    width: 120px;
+    left: 500px;
+    position: absolute;
+    animation: move 0.5s forwards;
+  }
+  
+  @keyframes move {
+    from {
+      bottom: 1000px;
+    }
+    to {
+      bottom: 0;
+    }
+}
+
+.leaf4 {
+    
+    height: auto;
+    width: 190px;
+    left: 660px;
+    position: absolute;
+    animation: move 1.9s forwards;
+  }
+  
+  @keyframes move {
+    from {
+      bottom: 1000px;
+    }
+    to {
+      bottom: 0;
+    }
+}
+
+.leaf5 {
+    
+    height: auto;
+    width: 180px;
+    left: 860px;
+    position: absolute;
+    animation: move 1s forwards;
+  }
+  
+  @keyframes move {
+    from {
+      bottom: 1000px;
+    }
+    to {
+      bottom: 0;
+    }
+}
+
+.leaf6 {
+    
+    height: auto;
+    width: 130px;
+    left: 920px;
+    position: absolute;
+    animation: move 1.8s forwards;
+  }
+  
+  @keyframes move {
+    from {
+      bottom: 1000px;
+    }
+    to {
+      bottom: 0;
+    }
+}
+
+.leaf7 {
+    
+    height: auto;
+    width: 150px;
+    left: 1060px;
+    position: absolute;
+    animation: move 0.5s forwards;
+  }
+  
+  @keyframes move {
+    from {
+      bottom: 1000px;
+    }
+    to {
+      bottom: 0;
+    }
+}
+
+.leaf8 {
+    
+    height: auto;
+    width: 140px;
+    left: 1120px;
+    position: absolute;
+    animation: move 1.4s forwards;
+  }
+  
+  @keyframes move {
+    from {
+      bottom: 1000px;
+    }
+    to {
+      bottom: 0;
+    }
+}
+
+.leaf9 {
+    
+    height: auto;
+    width: 170px;
+    left: 1250px;
+    position: absolute;
+    animation: move 1s forwards;
+  }
+  
+  @keyframes move {
+    from {
+      bottom: 1000px;
+    }
+    to {
+      bottom: 0;
+    }
+}
+
+.leaf10 {
+    
+    height: auto;
+    width: 170px;
+    left: 1340px;
+    position: absolute;
+    animation: move 1.5s forwards;
+  }
+  
+  @keyframes move {
+    from {
+      bottom: 1000px;
+    }
+    to {
+      bottom: 0;
+    }
+}
+
+.leaf11 {
+    
+    height: auto;
+    width: 170px;
+    left: 230px;
+    position: absolute;
+    animation: move 1.8s forwards;
+  }
+  
+  @keyframes move {
+    from {
+      bottom: 1000px;
+    }
+    to {
+      bottom: 0;
+    }
+}
+
+.leaf12 {
+    
+    height: auto;
+    width: 150px;
+    left: 190px;
+    position: absolute;
+    animation: move 1s forwards;
+  }
+  
+  @keyframes move {
+    from {
+      bottom: 1000px;
+    }
+    to {
+      bottom: 0;
+    }
+}
+
+.leaf13 {
+    
+    height: auto;
+    width: 120px;
+    left: 100px;
+    position: absolute;
+    animation: move 0.5s forwards;
+  }
+  
+  @keyframes move {
+    from {
+      bottom: 1000px;
+    }
+    to {
+      bottom: 0;
+    }
+}
+
+
+
+
+.cellsVid{
+    width: auto;
+    height: 840px;
+    position: absolute;
+    
+}
+
+.cellsText{
+    position: absolute;
+height: 100%;
+width: auto;
+top:425px;
+left: 770px;
+    transform: translate(-50%,
+    -50%);
+}
+
+.cellCircleBackground{
+    position: absolute;
+    height:250px;
+    width: auto;
+    top:425px;
+    left: 770px;
+    transform: translate(-50%,
+    -50%);
+  
+}
+.cellCircle{
+    position: absolute;
+    height: 265px;
+    width: auto;
+    top:425px;
+    left: 770px;
+    transform: translate(-50%,
+    -50%);
+    
+}
+
+.cellCircleShow{
+    display: none;
+}
+  
+  .cellCircleBackground:hover + .cellCircleShow {
+    display: block;
+}
+
+
+
