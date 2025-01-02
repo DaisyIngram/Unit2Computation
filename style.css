@@ -919,8 +919,8 @@
 
 .cellsText{
     position: absolute;
-height: 100%;
-width: auto;
+height: auto;
+width: 1200px;
 top:425px;
 left: 770px;
     transform: translate(-50%,
